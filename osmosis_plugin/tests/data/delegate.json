@@ -1,0 +1,138 @@
+{
+  "header": {
+    "id": 19131061,
+    "chain_id": "osmosis-1",
+    "block_id": 3023138,
+    "timestamp": "2022-01-31T09:15:23Z"
+  },
+  "data": {
+    "height": "3020603",
+    "txhash": "04668DE27064363B86A1925F71B453C24B08862B5F5704399B6E478616874FED",
+    "codespace": "",
+    "code": 0,
+    "data": "0A250A232F636F736D6F732E7374616B696E672E763162657461312E4D736744656C6567617465",
+    "raw_log": "[{\"events\":[{\"type\":\"coin_received\",\"attributes\":[{\"key\":\"receiver\",\"value\":\"osmo1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3aq6l09\"},{\"key\":\"amount\",\"value\":\"100000uosmo\"}]},{\"type\":\"coin_spent\",\"attributes\":[{\"key\":\"spender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"100000uosmo\"}]},{\"type\":\"delegate\",\"attributes\":[{\"key\":\"validator\",\"value\":\"osmovaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4ep88n0y4\"},{\"key\":\"amount\",\"value\":\"100000uosmo\"},{\"key\":\"new_shares\",\"value\":\"100000.000000000000000000\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"/cosmos.staking.v1beta1.MsgDelegate\"},{\"key\":\"module\",\"value\":\"staking\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"}]}]}]",
+    "logs": [
+      {
+        "msg_index": 0,
+        "log": "",
+        "events": [
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "osmo1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3aq6l09"
+              },
+              {
+                "key": "amount",
+                "value": "100000uosmo"
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "amount",
+                "value": "100000uosmo"
+              }
+            ]
+          },
+          {
+            "type": "delegate",
+            "attributes": [
+              {
+                "key": "validator",
+                "value": "osmovaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4ep88n0y4"
+              },
+              {
+                "key": "amount",
+                "value": "100000uosmo"
+              },
+              {
+                "key": "new_shares",
+                "value": "100000.000000000000000000"
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "/cosmos.staking.v1beta1.MsgDelegate"
+              },
+              {
+                "key": "module",
+                "value": "staking"
+              },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "info": "",
+    "gas_wanted": "300000",
+    "gas_used": "126134",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmos.staking.v1beta1.MsgDelegate",
+            "delegator_address": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m",
+            "validator_address": "osmovaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4ep88n0y4",
+            "amount": {
+              "denom": "uosmo",
+              "amount": "100000"
+            }
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A8IP5t2eHTVOrTaxi6vKgjYIa8fGCzmvJX1xEmWcvQcn"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+              }
+            },
+            "sequence": "24"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uosmo",
+              "amount": "0"
+            }
+          ],
+          "gas_limit": "300000",
+          "payer": "",
+          "granter": ""
+        }
+      },
+      "signatures": [
+        "9ivAKp16RSp14RiSiEze0N7FhY2T9szDoT7QsRI9rKkJ84Yz9sWLnzCHouliRqQ9OUaz414QekyuyrMcMt1+EQ=="
+      ]
+    },
+    "timestamp": "2022-01-31T09:15:23Z"
+  }
+}

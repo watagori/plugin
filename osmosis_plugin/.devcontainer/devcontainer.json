@@ -1,0 +1,17 @@
+{
+  "name": "osmosis_plugin",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "osmosis_plugin",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "ms-python.python",
+    "naumovs.color-highlight",
+    "github.copilot",
+    "eamodio.gitlens"
+  ],
+  "settings": {
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+  }
+}

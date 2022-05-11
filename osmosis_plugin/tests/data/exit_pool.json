@@ -1,0 +1,187 @@
+{
+  "header": {
+    "id": 16668820,
+    "chain_id": "osmosis-1",
+    "block_id": 2883923,
+    "timestamp": "2022-01-21T02:54:12Z"
+  },
+  "data": {
+    "height": "2881699",
+    "txhash": "8AA91C46E026F135C18BC37DA813A1682F283EFF7E5AE60899F740DE58470FBB",
+    "codespace": "",
+    "code": 0,
+    "data": "0A230A212F6F736D6F7369732E67616D6D2E763162657461312E4D736745786974506F6F6C",
+    "raw_log": "[{\"events\":[{\"type\":\"burn\",\"attributes\":[{\"key\":\"burner\",\"value\":\"osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj\"},{\"key\":\"amount\",\"value\":\"1161596256293489gamm/pool/497\"}]},{\"type\":\"coin_received\",\"attributes\":[{\"key\":\"receiver\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo\"},{\"key\":\"receiver\",\"value\":\"osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj\"},{\"key\":\"amount\",\"value\":\"1161596256293489gamm/pool/497\"}]},{\"type\":\"coin_spent\",\"attributes\":[{\"key\":\"spender\",\"value\":\"osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr\"},{\"key\":\"amount\",\"value\":\"1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo\"},{\"key\":\"spender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"1161596256293489gamm/pool/497\"},{\"key\":\"spender\",\"value\":\"osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj\"},{\"key\":\"amount\",\"value\":\"1161596256293489gamm/pool/497\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"/osmosis.gamm.v1beta1.MsgExitPool\"},{\"key\":\"sender\",\"value\":\"osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"module\",\"value\":\"gamm\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"}]},{\"type\":\"pool_exited\",\"attributes\":[{\"key\":\"module\",\"value\":\"gamm\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"pool_id\",\"value\":\"497\"},{\"key\":\"tokens_out\",\"value\":\"1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo\"},{\"key\":\"pool_id\",\"value\":\"497\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"sender\",\"value\":\"osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr\"},{\"key\":\"amount\",\"value\":\"1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo\"},{\"key\":\"recipient\",\"value\":\"osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"1161596256293489gamm/pool/497\"}]}]}]",
+    "logs": [
+      {
+        "msg_index": 0,
+        "log": "",
+        "events": [
+          {
+            "type": "burn",
+            "attributes": [
+              {
+                "key": "burner",
+                "value": "osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj"
+              },
+              { "key": "amount", "value": "1161596256293489gamm/pool/497" }
+            ]
+          },
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "amount",
+                "value": "1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo"
+              },
+              {
+                "key": "receiver",
+                "value": "osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj"
+              },
+              { "key": "amount", "value": "1161596256293489gamm/pool/497" }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr"
+              },
+              {
+                "key": "amount",
+                "value": "1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo"
+              },
+              {
+                "key": "spender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              { "key": "amount", "value": "1161596256293489gamm/pool/497" },
+              {
+                "key": "spender",
+                "value": "osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj"
+              },
+              { "key": "amount", "value": "1161596256293489gamm/pool/497" }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              { "key": "action", "value": "/osmosis.gamm.v1beta1.MsgExitPool" },
+              {
+                "key": "sender",
+                "value": "osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr"
+              },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              { "key": "module", "value": "gamm" },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              }
+            ]
+          },
+          {
+            "type": "pool_exited",
+            "attributes": [
+              { "key": "module", "value": "gamm" },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              { "key": "pool_id", "value": "497" },
+              {
+                "key": "tokens_out",
+                "value": "1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo"
+              },
+              { "key": "pool_id", "value": "497" }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "sender",
+                "value": "osmo1h7yfu7x4qsv2urnkl4kzydgxegdfyjdry5ee4xzj98jwz0uh07rqdkmprr"
+              },
+              {
+                "key": "amount",
+                "value": "1382ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED,2678uosmo"
+              },
+              {
+                "key": "recipient",
+                "value": "osmo1c9y7crgg6y9pfkq0y8mqzknqz84c3etr0kpcvj"
+              },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              { "key": "amount", "value": "1161596256293489gamm/pool/497" }
+            ]
+          }
+        ]
+      }
+    ],
+    "info": "",
+    "gas_wanted": "140000",
+    "gas_used": "105362",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/osmosis.gamm.v1beta1.MsgExitPool",
+            "sender": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m",
+            "poolId": "497",
+            "shareInAmount": "1161596256293489",
+            "tokenOutMins": [
+              {
+                "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+                "amount": "1347"
+              },
+              { "denom": "uosmo", "amount": "2611" }
+            ]
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A8IP5t2eHTVOrTaxi6vKgjYIa8fGCzmvJX1xEmWcvQcn"
+            },
+            "mode_info": {
+              "single": { "mode": "SIGN_MODE_LEGACY_AMINO_JSON" }
+            },
+            "sequence": "7"
+          }
+        ],
+        "fee": {
+          "amount": [{ "denom": "uosmo", "amount": "0" }],
+          "gas_limit": "140000",
+          "payer": "",
+          "granter": ""
+        }
+      },
+      "signatures": [
+        "ygHHmbGcQIY7m+8BPljz3+XKkYzsDyyOwvOvd97ooht7eP6Pz4nQ89FGVr2Wgh7fHqUQPRb7qbudjEirYX8HXQ=="
+      ]
+    },
+    "timestamp": "2022-01-21T02:54:12Z"
+  }
+}

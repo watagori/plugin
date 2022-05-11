@@ -1,0 +1,161 @@
+{
+  "header": {
+    "id": 16668469,
+    "chain_id": "osmosis-1",
+    "block_id": 2883904,
+    "timestamp": "2022-01-21T02:52:07Z"
+  },
+  "data": {
+    "height": "2881680",
+    "txhash": "3BA4AB4FCD0DB71F9A7239B55F1DD189DD38BFEEAF6EFFDA3BD4552DE6A3DADE",
+    "codespace": "",
+    "code": 0,
+    "data": "0A1F0A1D2F6F736D6F7369732E6C6F636B75702E4D73674C6F636B546F6B656E73",
+    "raw_log": "[{\"events\":[{\"type\":\"coin_received\",\"attributes\":[{\"key\":\"receiver\",\"value\":\"osmo1njty28rqtpw6n59sjj4esw76enp4mg6g7cwrhc\"},{\"key\":\"amount\",\"value\":\"2000000000000000gamm/pool/497\"}]},{\"type\":\"coin_spent\",\"attributes\":[{\"key\":\"spender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"2000000000000000gamm/pool/497\"}]},{\"type\":\"lock_tokens\",\"attributes\":[{\"key\":\"period_lock_id\",\"value\":\"871062\"},{\"key\":\"owner\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"2000000000000000gamm/pool/497\"},{\"key\":\"duration\",\"value\":\"24h0m0s\"},{\"key\":\"unlock_time\",\"value\":\"0001-01-01 00:00:00 +0000 UTC\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"lock_tokens\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"osmo1njty28rqtpw6n59sjj4esw76enp4mg6g7cwrhc\"},{\"key\":\"sender\",\"value\":\"osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m\"},{\"key\":\"amount\",\"value\":\"2000000000000000gamm/pool/497\"}]}]}]",
+    "logs": [
+      {
+        "msg_index": 0,
+        "log": "",
+        "events": [
+          {
+            "type": "coin_received",
+            "attributes": [
+              {
+                "key": "receiver",
+                "value": "osmo1njty28rqtpw6n59sjj4esw76enp4mg6g7cwrhc"
+              },
+              {
+                "key": "amount",
+                "value": "2000000000000000gamm/pool/497"
+              }
+            ]
+          },
+          {
+            "type": "coin_spent",
+            "attributes": [
+              {
+                "key": "spender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "amount",
+                "value": "2000000000000000gamm/pool/497"
+              }
+            ]
+          },
+          {
+            "type": "lock_tokens",
+            "attributes": [
+              {
+                "key": "period_lock_id",
+                "value": "871062"
+              },
+              {
+                "key": "owner",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "amount",
+                "value": "2000000000000000gamm/pool/497"
+              },
+              {
+                "key": "duration",
+                "value": "24h0m0s"
+              },
+              {
+                "key": "unlock_time",
+                "value": "0001-01-01 00:00:00 +0000 UTC"
+              }
+            ]
+          },
+          {
+            "type": "message",
+            "attributes": [
+              {
+                "key": "action",
+                "value": "lock_tokens"
+              },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              }
+            ]
+          },
+          {
+            "type": "transfer",
+            "attributes": [
+              {
+                "key": "recipient",
+                "value": "osmo1njty28rqtpw6n59sjj4esw76enp4mg6g7cwrhc"
+              },
+              {
+                "key": "sender",
+                "value": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m"
+              },
+              {
+                "key": "amount",
+                "value": "2000000000000000gamm/pool/497"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "info": "",
+    "gas_wanted": "250000",
+    "gas_used": "164816",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/osmosis.lockup.MsgLockTokens",
+            "owner": "osmo14ls9rcxxd5gqwshj85dae74tcp3umypp786h3m",
+            "duration": "86400s",
+            "coins": [
+              {
+                "denom": "gamm/pool/497",
+                "amount": "2000000000000000"
+              }
+            ]
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A8IP5t2eHTVOrTaxi6vKgjYIa8fGCzmvJX1xEmWcvQcn"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+              }
+            },
+            "sequence": "6"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uosmo",
+              "amount": "0"
+            }
+          ],
+          "gas_limit": "250000",
+          "payer": "",
+          "granter": ""
+        }
+      },
+      "signatures": [
+        "tT0vixeFXebE8nnv2M76notFI4nx+F6qkiX/hfsXbX9tHyXTRZwClC3ETaW0aAxkwW+Ps2BwBlmhIEZNP1woMA=="
+      ]
+    },
+    "timestamp": "2022-01-21T02:52:07Z"
+  }
+}
