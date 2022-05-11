@@ -1,0 +1,22 @@
+name: osmosis_plugin
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - run: curl -sSL https://install.python-poetry.org | python -
+      - run: export PATH="$PATH:$HOME/.poetry/bin"
+      - uses: actions/cache@v2
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+      - run: poetry config virtualenvs.in-project true && poetry install
+      - uses: pre-commit/action@v2.0.3
+      - run: poetry run pytest -v --cov=src
